@@ -375,3 +375,54 @@ footer small {
     color: #c7c3ba;
     font-size: .875rem;
 }
+
+/*
+DESKTOP SIZE
+================================================ */
+@media (min-width: 600px) {
+    /* Layout*/
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4rem;
+        padding: 1rem 2.5rem 2.5rem;
+    }
+
+    /* Header */
+    header {
+        height: 190px;
+    }
+    .page-title {
+        margin: 1rem 0 2rem;
+    }
+    .page-desc {
+        font-size: 1.125rem;
+        margin-bottom: 4rem;
+    }
+
+    /* Main */
+    main {
+        width: 68%;
+        margin-bottom: 0;
+    }
+    .post-thumb {
+        margin: 0 3rem 1rem 0;
+        shape-outside: circle();
+        float: left;
+    }
+    .post-img {
+        width: 220px;
+        height: 180px;
+    }
+
+    /* Aside */
+    aside {
+        width: 26%;
+    }
+
+    /* 人気記事 */
+    .popular-posts {
+        position: sticky;
+        top: 1rem;
+    }
+}
